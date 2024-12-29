@@ -4,13 +4,13 @@
 -In between () are most imprtant and needs the work on the most
 -Use the intructions of the teacher for his needs and restrictions
 
-
+-------------------------------------------------------------------------
 Users:
 
 students
 educators
 admins
-
+-------------------------------------------------------------------------
 Personas:
 Persona 1: Ahmad Jaafar(High School Student)
 
@@ -47,7 +47,7 @@ Frustrations:
 
 -Gets bored if he is studying programming alone.
 
-
+-------------------------------------------------------------------------
 Persona 2: Enma Shisiu(College Student)
 
 Age: 21
@@ -77,7 +77,7 @@ Frustrations:
 -Limited opportunities to practice spoken English in a professional or academic context.
 
 -Feels overwhelmed when participating in large, unstructured group discussions.
-
+-------------------------------------------------------------------------
 
 Persona 3: Jacob Williams(College Proffesor)
 
@@ -105,7 +105,7 @@ Frustrations:
 -Dealing with technical issues during live lectures, such as lag or connection drops.
 
 
-
+-------------------------------------------------------------------------
 User Stories:
 
 
@@ -114,7 +114,7 @@ User Stories:
 
 
 
-
+-------------------------------------------------------------------------
 Q/A:
 
 What challenges do you face in studying collaboratively? 
@@ -131,7 +131,7 @@ How important are features like language sorting and topic-specific servers?
 A:
 
 
-
+-------------------------------------------------------------------------
 System Requirements Specification (SRS):
 
 
@@ -148,7 +148,7 @@ white board
 Controls for educators(i.e disallowing muke for students, cameras, etc)
 log in system (authentication)
 built in white board 
-
+-------------------------------------------------------------------------
 Non-functional Requirements:
 
 Secure server management.
@@ -162,7 +162,7 @@ Response time for creating or joining a server should not exceed 2 seconds.
 The system should be designed to accommodate future growth, such as adding more subjects, chapters, or languages.
 The CLI should have clear instructions and an intuitive flow to ensure ease of use for non-technical users.
 Minimal navigation steps for key features like joining or creating servers.
-
+-------------------------------------------------------------------------
 Design Phase for the CLI:
 
 Components:
@@ -187,18 +187,17 @@ Table: Messages (Optional)
 Columns: MessageID, ServerID, UserID, Content, Timestamp
 
 
-
 Creat Classes based on the Database Schema:
 
 User:Attributes include name, language preference, etc.
 Server:Attributes include language, subject, chapter, and lesson.
 System:A central class to manage users and servers.
 
-
+-------------------------------------------------------------------------
 CLI:
 
 Importos2 (The CLI File) Rename it !!!!!!!!!!!!! CLI_Project.py
-
+-------------------------------------------------------------------------
 Programming Languages:
 
 Frontend(UI):
@@ -218,11 +217,11 @@ MongoDB(NoSQL): Flecing and scales well with rapid changes, since we have user p
 Authentications:
 JWT (JSON Web Tokens): For securing the app and managing user sessions.
 
-
+-------------------------------------------------------------------------
 
 GITHUB!!!!!!!!!!! focus here  i created the Repository
 
-
+-------------------------------------------------------------------------
 ( PDF Presentation:
 Sections:
 Project Overview
@@ -233,7 +232,7 @@ Features Demonstration
 Lessons Learned
 Future Improvements)
 
-
+-------------------------------------------------------------------------
 Development Methodology: (for the actual project)
 
 Agile Practices:
@@ -250,7 +249,7 @@ Testing Documentation:
 Maintain a testing log for each feature.
 
 
-
+-------------------------------------------------------------------------
 (Evaluation Preparation
 Finalize the GitHub repository with clear commits and documentation.
 Create an engaging PDF presentation.
