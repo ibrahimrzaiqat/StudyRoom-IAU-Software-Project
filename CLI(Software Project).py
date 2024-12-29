@@ -1,6 +1,6 @@
 import os
 
-# Sample data storage (in-memory for now)
+# Sample data storage 
 users = []
 servers = []
 
