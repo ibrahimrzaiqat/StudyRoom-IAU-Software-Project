@@ -1,0 +1,291 @@
+
+
+-Edit it, play with it, do it yourself,etc
+-In between () are most imprtant and needs the work on the most
+-Use the intructions of the teacher for his needs and restrictions
+
+
+Users:
+
+students
+educators
+admins
+
+Personas:
+Persona 1: Ahmad Jaafar(High School Student)
+
+Age: 17
+
+Education: Second-year highschool student 
+
+Location: Egypt
+
+Language: Fluent Arabic, intermediate English
+
+ 
+Background:
+
+-Ahmad is a high school student studying Programming as he aims to study in a Programming related Major.
+
+-He struggles with practicing programming alone.
+
+-Knowledgeable in technologies and comfortable using apps on his smartphone.
+
+Goals:
+
+-Improve his programming skills.
+
+-Connect with peers who are also learning how to code to exchange tips and resources.
+
+-Find a quick and convenient way to practice daily in a group.
+
+Frustrations:
+
+-Doesn't have any connections to programmers.
+
+-Difficulty finding programming partners who are at the same level.
+
+-Gets bored if he is studying programming alone.
+
+
+Persona 2: Enma Shisiu(College Student)
+
+Age: 21
+
+Education: Third-year college student majoring in Mechatronics
+
+Location: Japan
+
+Language: Fluent Japanese, amateur English
+
+Background:
+
+Enma is a college student passionate about robotics and automation. As part of her coursework, she frequently collaborates with international peers and researches technical papers in English. However, her intermediate English skills sometimes hinder her ability to communicate effectively and fully comprehend academic texts. She is highly motivated to improve her English proficiency for academic and professional growth.
+
+Goals:
+
+-Improve technical vocabulary related to Mechatronics and engineering in English.
+
+-Practice conversational English to confidently present her project ideas to international teams.
+
+-Engage in discussions with students from different countries to exchange ideas and learn about global trends in robotics.
+
+Frustrations:
+
+-Difficulty finding peers at a similar skill level to practice technical English.
+
+-Limited opportunities to practice spoken English in a professional or academic context.
+
+-Feels overwhelmed when participating in large, unstructured group discussions.
+
+
+Persona 3: Jacob Williams(College Proffesor)
+
+Age: 35
+
+Occupation: Calculus Proffesor
+
+Location: Georgia,U.S
+
+Language: Fluent English and Spanish, intermediate French
+
+
+Background:
+Jacob is a college professor who teaches calculus to a diverse group of students. He frequently uses technology to deliver lectures and assign coursework. While he’s comfortable with basic online tools, he finds switching between multiple platforms for communication, lectures, and student interaction inefficient. Jacob wants a centralized, intuitive solution to manage his classes, communicate with students, and deliver engaging online lectures.
+Goals:
+-Simplify communication with students by using a single platform for messaging and announcements.
+
+-Conduct seamless online lectures with features like screen sharing and real-time Q&A.
+
+-Create virtual rooms for office hours or group discussions to address student queries.
+
+Frustrations:
+-Switching between multiple tools (email, chat apps, video conferencing platforms) to manage class activities.
+
+-Dealing with technical issues during live lectures, such as lag or connection drops.
+
+
+
+User Stories:
+
+
+
+
+
+
+
+
+Q/A:
+
+What challenges do you face in studying collaboratively? 
+A: Lack of tools, 
+
+What features would you expect in a study app?
+A:
+
+
+Do you prefer structured study sessions or flexible ones?
+A:
+
+How important are features like language sorting and topic-specific servers?
+A:
+
+
+
+System Requirements Specification (SRS):
+
+
+Functional Requirements:
+
+Create open servers  based on language, subject, chapter, and lesson.
+Create private servers  based on language, subject, chapter, and lesson.
+join open servers  based on language, subject, chapter, and lesson.
+chat messages
+Videos
+audio
+screen sharing
+white board 
+Controls for educators(i.e disallowing muke for students, cameras, etc)
+log in system (authentication)
+built in white board 
+
+Non-functional Requirements:
+
+Secure server management.
+Scalability to handle multiple users simultaneously.
+Include mechanisms to back up server data periodically.
+
+Allow for data recovery in case of an application failure; support multiple languages to accommodate users from all over the world. The application should be platform-independent and should be able to run on major operating systems: Windows, macOS, Linux, Phones.
+
+The system shall handle a large number of concurrent users without significant degradation in performance. The response time to create or join a server shouldnt exceed 2 seconds.
+The system should be designed to accommodate future growth, such as adding more subjects, chapters, or languages.
+The CLI clearly indicates what is expected from the user and follows an intuitive flow so that a non-technical user can use it without any difficulty.
+Minimum number of navigation steps for key features like join/create server.
+
+Design Phase for the CLI:
+
+Components:
+
+User Management: Handles login and user information.
+Study Server Management: Manages the creation, joining, and listing of study servers.
+Messaging System: Enables communication.
+Flow:
+
+CLI (inputs) ==> Logic Layer ==> Data Storage 
+
+Database Schema:
+
+Table: Users
+Columns: UserID, Name, Language preference
+
+Table: Servers
+Columns: ServerID, Language, Subject, Chapter, Lesson
+
+Table: Messages 
+Columns: MessageID, ServerID, UserID, Content, Time stamp
+
+
+
+Creat Classes based on the Database Schema:
+
+User:Including name, language preference, etc.
+Server:Including language, subject, chapter, and lesson.
+System:A central class to manage users and servers.
+
+
+CLI:
+
+Importos2 (The CLI File) Rename it !!!!!!!!!!!!! CLI_Project.py
+
+Software Cylce:
+We are going to be using an Agile lifecylce (SDLC)
+Why Agile?
+Iterative Development:
+Our project involves evolving requirements.
+Flexibility:
+Agile makes adjusting priorities,working on feedbacks, and evolving requirements.
+Team Collaboration:
+Our project requires a medium sized team, where agile  encourages daily communication and collaboration.
+Sprints:
+Sprints allows us to deliver small functional increments regularly, which simplifies the task since our project has alot of functions.
+Tools:
+Github: for version control and task tracking
+Teams: communication
+Trello: task manager/tracker
+
+System:
+
+Frontend(UI):
+JS:Ideal for building interactive, dynamic, and responsive UI.
+HTML/CSS:Basic technologies for structuring and styling the web pages.
+TypeScript:Catching bugs and improve maintainability
+
+Backend:
+Python:Simplicity and readablity
+or
+Node.js:Great for building scalable web applications, and it uses JS which makes it simpler becasue we are using the same languages on frontend and backend.
+
+Database:
+MongoDB(NoSQL): Flecing and scales well with rapid changes, since we have user profiles, messagges, etc.
+
+
+Authentications:
+JWT (JSON Web Tokens): For securing the app and managing user sessions.
+
+Components:
+Some components includes:
+Authentication Service, Room Management, Messaging Service, Notification System, and User Profile Management
+
+
+
+GITHUB!!!!!!!!!!! focus here  i created the Repository
+
+
+( PDF Presentation:
+Sections:
+Project Overview
+Problem Statement & Solution
+Visual Infographics
+Development Journey
+Features Demonstration
+Lessons Learned
+Future Improvements)
+
+
+Development Methodology: (for the actual project)
+
+Agile Practices:
+
+Sprint Planning: Break tasks into 1-2 week sprints.
+Regular stand-up meetings to track progress.
+
+GitHub Project Board:
+
+Columns: Backlog, In Progress, Code Review, Done.
+
+Testing Documentation:
+
+Maintain a testing log for each feature.
+
+
+
+(Evaluation Preparation
+Finalize the GitHub repository with clear commits and documentation.
+Create an engaging PDF presentation.
+Prepare for a live demonstration (if required).)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
