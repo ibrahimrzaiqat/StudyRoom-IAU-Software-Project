@@ -1,15 +1,10 @@
 
 
--Edit it, play with it, do it yourself,etc
--In between () are most imprtant and needs the work on the most
--Use the intructions of the teacher for his needs and restrictions
-
-
 Users:
 
-students
-educators
-admins
+Students
+Educators
+Admins
 
 Personas:
 Persona 1: Ahmad Jaafar(High School Student)
@@ -109,45 +104,32 @@ Frustrations:
 User Stories:
 
 
+As a student, I need an organized way to sort my study materials by subject, so I can easily locate what I need for each topic.
+
+As part of a team, I want to have access to past meeting notes, enabling me to revisit key decisions and action points whenever necessary.
+
+As someone focused on learning, I’d like to schedule study sessions in my calendar to stay consistent and better manage my learning progress.
+
+As a meeting participant, I want to receive agendas ahead of time to ensure I’m prepared and can contribute meaningfully.
+
+As a member of a group, I need a private shared space to collaborate on study materials so everyone can participate and benefit from the collective effort.
 
 
 
-
-
-
-Q/A:
-
-What challenges do you face in studying collaboratively? 
-A: Lack of tools, 
-
-What features would you expect in a study app?
-A:
-
-
-Do you prefer structured study sessions or flexible ones?
-A:
-
-How important are features like language sorting and topic-specific servers?
-A:
-
-
-
-System Requirements Specification (SRS):
-
+System Requirements Specification:
 
 Functional Requirements:
 
 Create open servers  based on language, subject, chapter, and lesson.
 Create private servers  based on language, subject, chapter, and lesson.
-join open servers  based on language, subject, chapter, and lesson.
-chat messages
+Join open servers  based on language, subject, chapter, and lesson.
+Chat messages
 Videos
-audio
-screen sharing
-white board 
+Audio
+Screen sharing
 Controls for educators(i.e disallowing muke for students, cameras, etc)
-log in system (authentication)
-built in white board 
+Log in system (authentication)
+
 
 Non-functional Requirements:
 
@@ -194,20 +176,26 @@ System:A central class to manage users and servers.
 
 
 CLI:
-
-Importos2 (The CLI File) Rename it !!!!!!!!!!!!! CLI_Project.py
+In seperate file
 
 Software Cylce:
+
 We are going to be using an Agile lifecylce (SDLC)
+
 Why Agile?
+
 Iterative Development:
 Our project involves evolving requirements.
+
 Flexibility:
 Agile makes adjusting priorities,working on feedbacks, and evolving requirements.
+
 Team Collaboration:
 Our project requires a medium sized team, where agile  encourages daily communication and collaboration.
+
 Sprints:
 Sprints allows us to deliver small functional increments regularly, which simplifies the task since our project has alot of functions.
+
 Tools:
 Github: for version control and task tracking
 Teams: communication
@@ -230,59 +218,17 @@ MongoDB(NoSQL): Flecing and scales well with rapid changes, since we have user p
 
 
 Authentications:
-JWT (JSON Web Tokens): For securing the app and managing user sessions.
+JWT : For securing the app and managing user sessions.
 
-Components:
 Some components includes:
 Authentication Service, Room Management, Messaging Service, Notification System, and User Profile Management
 
 
 
-GITHUB!!!!!!!!!!! focus here  i created the Repository
-
-
-( PDF Presentation:
-Sections:
-Project Overview
-Problem Statement & Solution
-Visual Infographics
-Development Journey
-Features Demonstration
-Lessons Learned
-Future Improvements)
-
-
-Development Methodology: (for the actual project)
-
-Agile Practices:
-
-Sprint Planning: Break tasks into 1-2 week sprints.
-Regular stand-up meetings to track progress.
-
-GitHub Project Board:
-
-Columns: Backlog, In Progress, Code Review, Done.
-
-Testing Documentation:
-
-Maintain a testing log for each feature.
 
 
 
-(Evaluation Preparation
-Finalize the GitHub repository with clear commits and documentation.
-Create an engaging PDF presentation.
-Prepare for a live demonstration (if required).)
-
-
-
-
-
-
-
-
-
-
+.
 
 
 
