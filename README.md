@@ -74,3 +74,4 @@ CLI code run pictures:
 ![6)Joining rooms](https://github.com/user-attachments/assets/0709d466-86c7-4cd7-b93a-8238f79f7f87)
 ![7)Exiting the app](https://github.com/user-attachments/assets/dc7eb844-edd0-4868-911c-193578d0c331)
 
+![cli_auth_uml](https://github.com/user-attachments/assets/142ba847-fdf6-471c-adc8-519c2ea3e8db)
