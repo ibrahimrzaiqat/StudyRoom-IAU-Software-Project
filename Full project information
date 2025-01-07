@@ -1,11 +1,10 @@
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 Users:
 
 Students
 Educators
 Admins
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 Personas:
 Persona 1: Ahmad Jaafar(High School Student)
 
@@ -99,7 +98,7 @@ Frustrations:
 
 -Dealing with technical issues during live lectures, such as lag or connection drops.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 User Stories:
 
@@ -115,7 +114,7 @@ As a meeting participant, I want to receive agendas ahead of time to ensure I’
 As a member of a group, I need a private shared space to collaborate on study materials so everyone can participate and benefit from the collective effort.
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 System Requirements Specification:
 
 Functional Requirements:
@@ -143,6 +142,7 @@ The system shall handle a large number of concurrent users without significant d
 The system should be designed to accommodate future growth, such as adding more subjects, chapters, or languages.
 The CLI clearly indicates what is expected from the user and follows an intuitive flow so that a non-technical user can use it without any difficulty.
 Minimum number of navigation steps for key features like join/create server.
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 Design Phase for the CLI:
 
@@ -173,10 +173,12 @@ Creat Classes based on the Database Schema:
 User:Including name, language preference, etc.
 Server:Including language, subject, chapter, and lesson.
 System:A central class to manage users and servers.
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 CLI:
 In seperate file
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 Software Cylce:
 
@@ -200,6 +202,7 @@ Tools:
 Github: for version control and task tracking
 Teams: communication
 Trello: task manager/tracker
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 System:
 
@@ -222,7 +225,7 @@ JWT : For securing the app and managing user sessions.
 
 Some components includes:
 Authentication Service, Room Management, Messaging Service, Notification System, and User Profile Management
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
