@@ -46,7 +46,7 @@ def main_menu():
     """Displays the main menu and handles user choices"""
     while True:
         clear_screen()
-        print("Welcome to Collaborative Study Platform")
+        print("Welcome to StudyRoom Platform")
         print("1. Join a Study Server")
         print("2. Create a Study Server")
         print("3. View Active Study Servers")
